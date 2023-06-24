@@ -1,0 +1,49 @@
+
+---------CRUD EMPLEADO---------------
+
+FIND ALL: http://localhost:8080/api/v1/Empleados/listar
+
+FIND NOBRE: http://localhost:8080/api/v1/Empleados/buscar-por-nombre?nombre=karol
+
+FIND ID: http://localhost:8080/api/v1/Empleados/2
+
+DELETE ID: http://localhost:8080/api/v1/Empleados/2
+
+CREATE: http://localhost:8080/api/v1/Empleados/crear
+
+UPDATE: http://localhost:8080/api/v1/Empleados/modificar
+
+
+---------CRUD PEDIDO-----------------
+
+FIND NOMBRE: http://localhost:8080/api/v1/pedido/buscar-por-nombre?nombre=sabana
+
+FIND GUIA: http://localhost:8080/api/v1/pedido/obtenerPedidoPorGuia/787878
+
+FIND ESTADO: http://localhost:8080/api/v1/pedido/obtenerPedidoPorEstado/Recibido
+
+FIND ALL: http://localhost:8080/api/v1/pedido/listar
+
+FIND ID: http://localhost:8080/api/v1/pedido/2
+
+DELETE: http://localhost:8080/api/v1/pedido/1
+
+CREATE: http://localhost:8080/api/v1/pedido/crear
+
+UPDATE: http://localhost:8080/api/v1/pedido/modificar
+
+
+
+-----------CRUD USUARIO--------------
+
+FIND ALL: http://localhost:8080/api/v1/Usuarios/listar
+
+FIND NOMBRE:  http://localhost:8080/api/v1/Usuarios/buscar-por-nombre?nombre=jefe
+
+FIND ID: http://localhost:8080/api/v1/Usuarios/1
+
+DELETE: http://localhost:8080/api/v1/Usuarios/2
+
+CREATE: http://localhost:8080/api/v1/Usuarios/guardar
+
+UPDATE: http://localhost:8080/api/v1/Usuarios/modificar
